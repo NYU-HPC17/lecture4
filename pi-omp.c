@@ -68,7 +68,7 @@ double compute_pi2()
 
 double compute_pi4()
 {
-  double pi;
+  double pi = 0.0;
   const double step = 1.0/NUM_STEPS;
 
 #pragma omp parallel
